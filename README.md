@@ -21,5 +21,5 @@ This Shiny app skeleton solves these problems on the app code level by:
 
 ## Thanks
 
-- The general structure of the custom CSS loader code is from [scartwright91/loading-dashboard](scartwright91/loading-dashboard).
-- The loader code is packed as HTML dependency following the guidelines in the [Handle HTML dependencies with htmltools](https://unleash-shiny.rinterface.com/htmltools-dependencies.html) chapter of the "Outstanding User Interfaces with Shiny" book by Kenton Russel aka @timelyportfolio.
+- The general structure of the loading screen code is from [scartwright91/loading-dashboard](https://github.com/scartwright91/loading-dashboard), by using the single-element CSS spinner from Luke Haas and shinyjs from Dean Attali.
+- The loader code is packed as HTML dependency following the guidelines in the [handle HTML dependencies with htmltools](https://unleash-shiny.rinterface.com/htmltools-dependencies.html) chapter of the "Outstanding User Interfaces with Shiny" book by Kenton Russel aka @timelyportfolio.
