@@ -3,6 +3,8 @@
 Shiny app skeleton with a loading screen that aims to minimize the time
 to [first contentful paint (FCP)](https://web.dev/fcp/).
 
+Demo: <https://nanx.shinyapps.io/shiny-fcp-loader/>
+
 ## Problem
 
 For larger Shiny apps, users could wait a long time with a blank screen before seeing the rendered app content in the web browser, possibly due to:
