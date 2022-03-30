@@ -13,7 +13,7 @@ ui <- function(request) {
 server <- function(input, output, session) {
   output$ui_main <- renderUI(source("ui/main.R", local = TRUE)$value)
   source("server/main.R", local = TRUE)$value
-  shinyjs::delay(2000, shinyjs::hide("loading"))
+  shinyjs::delay(15000, shinyjs::hide("loading"))
 }
 
 shinyApp(ui, server)
