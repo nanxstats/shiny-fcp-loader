@@ -5,6 +5,8 @@ to [first contentful paint (FCP)](https://web.dev/fcp/).
 
 Demo: <https://nanx.shinyapps.io/shiny-fcp-loader/>
 
+Blog post: <https://nanx.me/blog/post/shiny-fcp-loader/>
+
 ## Problem
 
 For larger Shiny apps, users could wait a long time with a blank screen before seeing the rendered app content in the web browser, possibly due to:
